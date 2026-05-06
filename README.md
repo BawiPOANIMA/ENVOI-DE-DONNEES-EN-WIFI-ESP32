@@ -34,7 +34,7 @@ void setup(){
 - Récupérer l'IP de la va permetre de creer un bouton sur la page index.php pour allumer une led et buzer
 # Étape 2 : Envoi de la donnée par l’ESP32 sur le serveur web
 -  Pour envoyer une donner au serveur nous utilison la requête POST	qui permet d'envoyer une nouvelle donnée, GET	Lire	récupérer une valeur, PUT	Modifier	mettre à jour une donnée.
--  Le programme si-dessous permet denvoyer une donner aléatoire sur le serveur Ubuntu.
+-  Le programme si-dessous permet denvoyer une donner aléatoire toute les 5 seconde  sur le serveur Ubuntu.
 
 Copiez ce code dans votre Arduino IDE :
  ```cpp
@@ -84,9 +84,6 @@ void loop() {
   } else {
     Serial.println("WiFi non connecté !");
   }
-```
-
   delay(5000); // attente de 5 secondes avant le prochain envoi
 }
-
-
+```
