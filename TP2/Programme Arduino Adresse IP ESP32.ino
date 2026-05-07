@@ -1,5 +1,3 @@
-Copiez ce code dans votre Arduino IDE :
-
 #include <WiFi.h>
 
 const char* ssid = "Nom du réseau"; // parti a modifier
